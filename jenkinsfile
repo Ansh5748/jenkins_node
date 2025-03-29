@@ -1,7 +1,7 @@
 piperline {
     agent any
     tools {
-        maven 'node'
+        nodejs 'node'
     }
     stages {
         stage('Build') {
